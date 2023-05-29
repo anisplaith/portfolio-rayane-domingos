@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-rayane-domingos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "tailwindcss -i ./src/style.css -o ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisplaith/portfolio-rayane-domingos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisplaith/portfolio-rayane-domingos/issues"
+  },
+  "homepage": "https://github.com/anisplaith/portfolio-rayane-domingos#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

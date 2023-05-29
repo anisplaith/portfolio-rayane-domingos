@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-box {
+    @apply w-[100%] flex justify-between 
+}
+
+.menu{
+    @apply gap-3 mx-5 items-center hidden z-10 text-[1.12rem] lg:flex 
+}
+
+.menu-burguer{
+    @apply lg:hidden flex mx-5
+
+}
+
+.main-section{
+    @apply border border-red-950 mx-5 justify-normal
+}
+
+.info-section{
+    @apply border border-blue-500 lg:w-[40%]  
+}
+
+h1{
+    @apply text-[180%] lg:text-[2.6rem]
+}
+
+.purple-bg{
+    @apply flex z-0 justify-center relative left-3 lg:left-[48.2%] lg:top-[4%] lg:absolute lg:w-[50%]
+}
+
+.hello-card{
+    @apply flex z-20 absolute left-2 top-[11rem] w-[80%] lg:w-[43%] lg:left-[38%] lg:top-[20%]
+}
